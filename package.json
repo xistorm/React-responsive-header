@@ -1,0 +1,44 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Trying to learn react",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp sass && gulp jsx && start gulp watch && start http://localhost:3000/ && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xistorm/React-temp.git"
+  },
+  "keywords": [
+    "React",
+    "learning"
+  ],
+  "author": "xistorm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xistorm/React-temp/issues"
+  },
+  "homepage": "https://github.com/xistorm/React-temp#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.12.0",
+    "@babel-plugin-transform-react-jsx": "^6.24.1",
+    "@babel/plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-react": "^4.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
+}

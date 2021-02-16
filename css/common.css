@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  min-height: 100vh; }
